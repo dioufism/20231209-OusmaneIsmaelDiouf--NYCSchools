@@ -7,11 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA0038772AB0FCEA00EBC07C /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0038762AB0FCEA00EBC07C /* NetworkingManager.swift */; };
+		DA0038792AB110FC00EBC07C /* SchoolListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0038782AB110FC00EBC07C /* SchoolListViewModel.swift */; };
+		DA00387B2AB1116100EBC07C /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA00387A2AB1116100EBC07C /* School.swift */; };
+		DA00387D2AB12EBB00EBC07C /* SchoolDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA00387C2AB12EBB00EBC07C /* SchoolDetails.swift */; };
+		DA00387F2AB14B3A00EBC07C /*  SchoolDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA00387E2AB14B3A00EBC07C /*  SchoolDetailView.swift */; };
+		DA0038812AB16DE800EBC07C /* SchoolDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0038802AB16DE800EBC07C /* SchoolDetailViewModel.swift */; };
+		DA0038832AB21B3600EBC07C /* NetworkingManagerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA0038822AB21B3600EBC07C /* NetworkingManagerTest.swift */; };
 		DA6FE3592AB0EAB10016E376 /* _0231209_OusmaneIsmaelDiouf__NYCSchoolsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6FE3582AB0EAB10016E376 /* _0231209_OusmaneIsmaelDiouf__NYCSchoolsApp.swift */; };
-		DA6FE35B2AB0EAB10016E376 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6FE35A2AB0EAB10016E376 /* ContentView.swift */; };
+		DA6FE35B2AB0EAB10016E376 /* SchoolListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6FE35A2AB0EAB10016E376 /* SchoolListView.swift */; };
 		DA6FE35D2AB0EAB50016E376 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA6FE35C2AB0EAB50016E376 /* Assets.xcassets */; };
 		DA6FE3602AB0EAB50016E376 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA6FE35F2AB0EAB50016E376 /* Preview Assets.xcassets */; };
-		DA6FE36A2AB0EAB50016E376 /* _0231209_OusmaneIsmaelDiouf__NYCSchoolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6FE3692AB0EAB50016E376 /* _0231209_OusmaneIsmaelDiouf__NYCSchoolsTests.swift */; };
+		DA6FE36A2AB0EAB50016E376 /* NetworkingEndpointTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6FE3692AB0EAB50016E376 /* NetworkingEndpointTests.swift */; };
 		DA6FE3742AB0EAB50016E376 /* _0231209_OusmaneIsmaelDiouf__NYCSchoolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6FE3732AB0EAB50016E376 /* _0231209_OusmaneIsmaelDiouf__NYCSchoolsUITests.swift */; };
 		DA6FE3762AB0EAB50016E376 /* _0231209_OusmaneIsmaelDiouf__NYCSchoolsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6FE3752AB0EAB50016E376 /* _0231209_OusmaneIsmaelDiouf__NYCSchoolsUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
@@ -34,13 +41,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA0038762AB0FCEA00EBC07C /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
+		DA0038782AB110FC00EBC07C /* SchoolListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolListViewModel.swift; sourceTree = "<group>"; };
+		DA00387A2AB1116100EBC07C /* School.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School.swift; sourceTree = "<group>"; };
+		DA00387C2AB12EBB00EBC07C /* SchoolDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDetails.swift; sourceTree = "<group>"; };
+		DA00387E2AB14B3A00EBC07C /*  SchoolDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " SchoolDetailView.swift"; sourceTree = "<group>"; };
+		DA0038802AB16DE800EBC07C /* SchoolDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDetailViewModel.swift; sourceTree = "<group>"; };
+		DA0038822AB21B3600EBC07C /* NetworkingManagerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManagerTest.swift; sourceTree = "<group>"; };
 		DA6FE3552AB0EAB10016E376 /* 20231209-OusmaneIsmaelDiouf- NYCSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20231209-OusmaneIsmaelDiouf- NYCSchools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA6FE3582AB0EAB10016E376 /* _0231209_OusmaneIsmaelDiouf__NYCSchoolsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0231209_OusmaneIsmaelDiouf__NYCSchoolsApp.swift; sourceTree = "<group>"; };
-		DA6FE35A2AB0EAB10016E376 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DA6FE35A2AB0EAB10016E376 /* SchoolListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolListView.swift; sourceTree = "<group>"; };
 		DA6FE35C2AB0EAB50016E376 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA6FE35F2AB0EAB50016E376 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DA6FE3652AB0EAB50016E376 /* 20231209-OusmaneIsmaelDiouf- NYCSchoolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20231209-OusmaneIsmaelDiouf- NYCSchoolsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA6FE3692AB0EAB50016E376 /* _0231209_OusmaneIsmaelDiouf__NYCSchoolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0231209_OusmaneIsmaelDiouf__NYCSchoolsTests.swift; sourceTree = "<group>"; };
+		DA6FE3692AB0EAB50016E376 /* NetworkingEndpointTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingEndpointTests.swift; sourceTree = "<group>"; };
 		DA6FE36F2AB0EAB50016E376 /* 20231209-OusmaneIsmaelDiouf- NYCSchoolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20231209-OusmaneIsmaelDiouf- NYCSchoolsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA6FE3732AB0EAB50016E376 /* _0231209_OusmaneIsmaelDiouf__NYCSchoolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0231209_OusmaneIsmaelDiouf__NYCSchoolsUITests.swift; sourceTree = "<group>"; };
 		DA6FE3752AB0EAB50016E376 /* _0231209_OusmaneIsmaelDiouf__NYCSchoolsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0231209_OusmaneIsmaelDiouf__NYCSchoolsUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -71,6 +85,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DA0038742AB0FC9B00EBC07C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				DA0038762AB0FCEA00EBC07C /* NetworkingManager.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		DA0038752AB0FCB000EBC07C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				DA0038742AB0FC9B00EBC07C /* Service */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		DA6FE34C2AB0EAB10016E376 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +124,9 @@
 		DA6FE3572AB0EAB10016E376 /* 20231209-OusmaneIsmaelDiouf- NYCSchools */ = {
 			isa = PBXGroup;
 			children = (
+				DA0038752AB0FCB000EBC07C /* Base */,
+				DA6FE3882AB0EBDA0016E376 /* Features */,
 				DA6FE3582AB0EAB10016E376 /* _0231209_OusmaneIsmaelDiouf__NYCSchoolsApp.swift */,
-				DA6FE35A2AB0EAB10016E376 /* ContentView.swift */,
 				DA6FE35C2AB0EAB50016E376 /* Assets.xcassets */,
 				DA6FE35E2AB0EAB50016E376 /* Preview Content */,
 			);
@@ -113,7 +144,8 @@
 		DA6FE3682AB0EAB50016E376 /* 20231209-OusmaneIsmaelDiouf- NYCSchoolsTests */ = {
 			isa = PBXGroup;
 			children = (
-				DA6FE3692AB0EAB50016E376 /* _0231209_OusmaneIsmaelDiouf__NYCSchoolsTests.swift */,
+				DA6FE3692AB0EAB50016E376 /* NetworkingEndpointTests.swift */,
+				DA0038822AB21B3600EBC07C /* NetworkingManagerTest.swift */,
 			);
 			path = "20231209-OusmaneIsmaelDiouf- NYCSchoolsTests";
 			sourceTree = "<group>";
@@ -125,6 +157,83 @@
 				DA6FE3752AB0EAB50016E376 /* _0231209_OusmaneIsmaelDiouf__NYCSchoolsUITestsLaunchTests.swift */,
 			);
 			path = "20231209-OusmaneIsmaelDiouf- NYCSchoolsUITests";
+			sourceTree = "<group>";
+		};
+		DA6FE3822AB0EACA0016E376 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DA00387A2AB1116100EBC07C /* School.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DA6FE3832AB0EACF0016E376 /* ViewModel  */ = {
+			isa = PBXGroup;
+			children = (
+				DA0038782AB110FC00EBC07C /* SchoolListViewModel.swift */,
+			);
+			path = "ViewModel ";
+			sourceTree = "<group>";
+		};
+		DA6FE3862AB0EB390016E376 /* SchoolList */ = {
+			isa = PBXGroup;
+			children = (
+				DA6FE3872AB0EBAF0016E376 /* View */,
+				DA6FE3832AB0EACF0016E376 /* ViewModel  */,
+				DA6FE3822AB0EACA0016E376 /* Model */,
+			);
+			path = SchoolList;
+			sourceTree = "<group>";
+		};
+		DA6FE3872AB0EBAF0016E376 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DA00387E2AB14B3A00EBC07C /*  SchoolDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DA6FE3882AB0EBDA0016E376 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				DA6FE3892AB0EBE60016E376 /* SchoolDetailView */,
+				DA6FE3862AB0EB390016E376 /* SchoolList */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		DA6FE3892AB0EBE60016E376 /* SchoolDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				DA6FE38A2AB0EC160016E376 /* Model */,
+				DA6FE38C2AB0EC240016E376 /* View */,
+			);
+			path = SchoolDetailView;
+			sourceTree = "<group>";
+		};
+		DA6FE38A2AB0EC160016E376 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DA00387C2AB12EBB00EBC07C /* SchoolDetails.swift */,
+				DA6FE38B2AB0EC1D0016E376 /* ViewModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DA6FE38B2AB0EC1D0016E376 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DA0038802AB16DE800EBC07C /* SchoolDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DA6FE38C2AB0EC240016E376 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DA6FE35A2AB0EAB10016E376 /* SchoolListView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +366,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA6FE35B2AB0EAB10016E376 /* ContentView.swift in Sources */,
+				DA00387F2AB14B3A00EBC07C /*  SchoolDetailView.swift in Sources */,
+				DA6FE35B2AB0EAB10016E376 /* SchoolListView.swift in Sources */,
+				DA00387D2AB12EBB00EBC07C /* SchoolDetails.swift in Sources */,
+				DA00387B2AB1116100EBC07C /* School.swift in Sources */,
+				DA0038772AB0FCEA00EBC07C /* NetworkingManager.swift in Sources */,
+				DA0038812AB16DE800EBC07C /* SchoolDetailViewModel.swift in Sources */,
+				DA0038792AB110FC00EBC07C /* SchoolListViewModel.swift in Sources */,
 				DA6FE3592AB0EAB10016E376 /* _0231209_OusmaneIsmaelDiouf__NYCSchoolsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,7 +381,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA6FE36A2AB0EAB50016E376 /* _0231209_OusmaneIsmaelDiouf__NYCSchoolsTests.swift in Sources */,
+				DA6FE36A2AB0EAB50016E376 /* NetworkingEndpointTests.swift in Sources */,
+				DA0038832AB21B3600EBC07C /* NetworkingManagerTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,11 +536,12 @@
 				DEVELOPMENT_TEAM = GZX884X8HC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "-0231209-OusmaneIsmaelDiouf--NYCSchools-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,11 +566,12 @@
 				DEVELOPMENT_TEAM = GZX884X8HC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "-0231209-OusmaneIsmaelDiouf--NYCSchools-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
