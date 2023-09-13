@@ -12,4 +12,4 @@
 - Unit test
 
 - ## Demo
-![ezgif com-video-to-gif (2)](https://github.com/dioufism/20231209-OusmaneIsmaelDiouf--NYCSchools/assets/38227064/2ec51b31-af48-4f2c-b235-3c9040805bfd)
+![ezgif com-video-to-gif (3)](https://github.com/dioufism/20231209-OusmaneIsmaelDiouf--NYCSchools/assets/38227064/c49b9fe6-286e-47d1-a794-1ced88e4c417)
